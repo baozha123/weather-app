@@ -16,7 +16,7 @@ if response.status_code == 200:
 else :
     print("gg, error occured")
 if temperature < 0:
-    print('好jb冷')
+    print('好冷')
 if temperature < 10 and temperature > 0:
     print('有点冷')
 if temperature < 20 and temperature >10:
